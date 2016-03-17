@@ -1,34 +1,34 @@
 #UsingGithub
 ----
-##��֧ branch
-####һ���ϲ���֧ merge branch
-������⣺Ϊ�˲��Եİ汾����ʹ����Ĭ�ϰ汾
-������Ҫ�ϲ���֧ 
-**Note��**�ϲ���commit ����Ӱ�����汾�ͷ�֧�汾����Ϊ�ϲ���NewCommit����ָ��ָ��ϲ�ǰ���汾����
+##分支 branch
+####一、合并分支 merge branch
+解决问题：为了测试的版本最终使用于默认版本
+于是需要合并分支 
+**Note：**合并后commit 将会影响主版本和分支版本（因为合并后NewCommit两个指针指向合并前两版本。）
+blob:http%3A//115.29.201.173/4b728e75-79f5-4c76-a5c7-ba6fc6c8420e
 
-![Alt text](./1458195851664.png)
 
 ----
-####���������֧ rebase branch
-������⣺���**������**����**��ͬ�˶�ͬ�����ݵ��޸�**���д�����
-���޳�ͻ���������޸Ķ�������
+####二、变基分支 rebase branch
+解决问题：多个**工作流**，将**不同人对同个内容的修改**进行处理。
+若无冲突将对两个修改都保留。
 
  
-**��ͻ��**
+**冲突：**
 ![Alt text](./1458196635647.png)
-**��ͻ��ͬ�����뼶��ʾ��**
+**冲突后同步代码级提示：**
 ![Alt text](./1458196695064.png)
 
-####�Աȣ�
+####对比：
 
 	      D---E test  
 	     /  
      A---B---C---F master     
-ʹ��merge�ϲ���
+使用merge合并：
 
 	     D--------E  
 	    /          \  
 	A---B---C---F----G  test,master 
-��ʹ��rebase��
+而使用rebase则：
 
 	A---B---D---E---C'---F' test, master
