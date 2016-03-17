@@ -5,7 +5,7 @@
 解决问题：为了测试的版本最终使用于默认版本
 于是需要合并分支 
 **Note：**合并后commit 将会影响主版本和分支版本（因为合并后NewCommit两个指针指向合并前两版本。）
-blob:http%3A//115.29.201.173/4b728e75-79f5-4c76-a5c7-ba6fc6c8420e
+![Alt text](./imagic/1.png)
 
 
 ----
@@ -15,9 +15,9 @@ blob:http%3A//115.29.201.173/4b728e75-79f5-4c76-a5c7-ba6fc6c8420e
 
  
 **冲突：**
-![Alt text](./1458196635647.png)
+![github](https://github.com/HotzZhong/UsingGithubRecord/edit/master/imagic/2.png)
 **冲突后同步代码级提示：**
-![Alt text](./1458196695064.png)
+![github](https://github.com/HotzZhong/UsingGithubRecord/edit/master/imagic/3.png)
 
 ####对比：
 
