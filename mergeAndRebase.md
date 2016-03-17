@@ -15,7 +15,7 @@
 
  
 **冲突：**
-![github](https://github.com/HotzZhong/UsingGithubRecord/edit/master/imagic/2.png)
+![github](https://github.com/HotzZhong/UsingGithubRecord/blob/master/imagic/2.png)
 **冲突后同步代码级提示：**
 ![github](https://github.com/HotzZhong/UsingGithubRecord/edit/master/imagic/3.png)
 
