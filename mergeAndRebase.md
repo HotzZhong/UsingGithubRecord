@@ -17,6 +17,7 @@
 **冲突：**
 
 ![Alt text](./imagic/2.png)
+
 **冲突后同步代码级提示：**
 
 ![Alt text](./imagic/3.png)
