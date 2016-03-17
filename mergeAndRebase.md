@@ -5,8 +5,8 @@
 解决问题：为了测试的版本最终使用于默认版本
 于是需要合并分支 
 **Note：**合并后commit 将会影响主版本和分支版本（因为合并后NewCommit两个指针指向合并前两版本。）
-![Alt text](./imagic/1.png)
 
+![Alt text](./imagic/1.png)
 
 ----
 ####二、变基分支 rebase branch
